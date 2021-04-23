@@ -3,7 +3,7 @@ import socket
 server = socket.socket()
 print('Server Created')
 
-server.bind(('localhost',9991))
+server.bind(('localhost',9996))
 server.listen(3)
 print('Waiting for connections')
 
