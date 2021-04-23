@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket()
-client.connect(('localhost',9991))
+client.connect(('localhost',9996))
 
 name = input('Enter Your Name')
 client.send(bytes(name,'utf-8'))
