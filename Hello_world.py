@@ -1,1 +1,2 @@
-print('Hello World')
+cd /home/alethea/PycharmProjects/pythonProject
+python3 Hello_world.py
