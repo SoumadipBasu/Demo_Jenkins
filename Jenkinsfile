@@ -1,12 +1,18 @@
 pipeline {
     agent any
-
+       tools{ nodejs 'npm'}
+ 
     stages {
-        stage('Hello') {
+        stage('Build') {
             steps {
-                echo 'Hello World'
-                echo 'Deploy'
+                echo 'Building'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing'
             }
         }
     }
 }
+
